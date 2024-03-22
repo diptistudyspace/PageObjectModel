@@ -5,9 +5,8 @@
     <classes>
       <class name="pix.Pixabay.com.TestBase">
         <methods>
-          <include name="Setup"/>
           <include name="testLoginPage"/>
-          <include name="testPortfolioPage"/>
+          <include name="closure"/>
         </methods>
       </class> <!-- pix.Pixabay.com.TestBase -->
     </classes>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pix.Pixabay.com.HomePage">
+      <class name="pix.Pixabay.com.TestBase">
         <methods>
-          <include name="clickJoinButton"/>
+          <include name="testLoginPage"/>
         </methods>
-      </class> <!-- pix.Pixabay.com.HomePage -->
+      </class> <!-- pix.Pixabay.com.TestBase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
