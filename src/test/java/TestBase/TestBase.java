@@ -1,4 +1,4 @@
-package pix.Pixabay.com;
+package TestBase;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +9,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pix.Pixabay.com.LoginPage;
+import pix.Pixabay.com.PortfolioPage;
 
 public class TestBase { // Page Object Model base class
 	WebDriver driver;
